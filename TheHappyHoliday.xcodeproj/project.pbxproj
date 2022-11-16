@@ -7,23 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		02ADEF6952AA3734326403C5 /* Pods_TheHappyHoliday.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C44E559F714BE417CA7F14FC /* Pods_TheHappyHoliday.framework */; };
 		72BBC24E292581750029B35A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72BBC24D292581750029B35A /* AppDelegate.swift */; };
-		72BBC250292581750029B35A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72BBC24F292581750029B35A /* SceneDelegate.swift */; };
-		72BBC252292581750029B35A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72BBC251292581750029B35A /* ViewController.swift */; };
-		72BBC255292581750029B35A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72BBC253292581750029B35A /* Main.storyboard */; };
 		72BBC257292581760029B35A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72BBC256292581760029B35A /* Assets.xcassets */; };
 		72BBC25A292581760029B35A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72BBC258292581760029B35A /* LaunchScreen.storyboard */; };
+		72BBC266292581E10029B35A /* HolidayVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72BBC264292581E10029B35A /* HolidayVC.swift */; };
+		72BBC267292581E10029B35A /* HolidayVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 72BBC265292581E10029B35A /* HolidayVC.xib */; };
+		72BBC270292584830029B35A /* earth-student.json in Resources */ = {isa = PBXBuildFile; fileRef = 72BBC268292584830029B35A /* earth-student.json */; };
+		72BBC271292584830029B35A /* happy-student.json in Resources */ = {isa = PBXBuildFile; fileRef = 72BBC269292584830029B35A /* happy-student.json */; };
+		72BBC273292584830029B35A /* student-comp.json in Resources */ = {isa = PBXBuildFile; fileRef = 72BBC26B292584830029B35A /* student-comp.json */; };
+		72BBC274292584830029B35A /* confetti.json in Resources */ = {isa = PBXBuildFile; fileRef = 72BBC26C292584830029B35A /* confetti.json */; };
+		72BBC275292584830029B35A /* student-laptop.json in Resources */ = {isa = PBXBuildFile; fileRef = 72BBC26D292584830029B35A /* student-laptop.json */; };
+		72BBC276292584830029B35A /* students-jump.json in Resources */ = {isa = PBXBuildFile; fileRef = 72BBC26E292584830029B35A /* students-jump.json */; };
+		72BBC277292584830029B35A /* happy-holidays.json in Resources */ = {isa = PBXBuildFile; fileRef = 72BBC26F292584830029B35A /* happy-holidays.json */; };
+		72BBC279292584E00029B35A /* confetti-2.json in Resources */ = {isa = PBXBuildFile; fileRef = 72BBC278292584E00029B35A /* confetti-2.json */; };
+		72BBC27B2925859A0029B35A /* fireworks.wav in Resources */ = {isa = PBXBuildFile; fileRef = 72BBC27A2925859A0029B35A /* fireworks.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		72BBC24A292581750029B35A /* TheHappyHoliday.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheHappyHoliday.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		72BBC24D292581750029B35A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		72BBC24F292581750029B35A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		72BBC251292581750029B35A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		72BBC254292581750029B35A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		72BBC256292581760029B35A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		72BBC259292581760029B35A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		72BBC25B292581760029B35A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72BBC264292581E10029B35A /* HolidayVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HolidayVC.swift; sourceTree = "<group>"; };
+		72BBC265292581E10029B35A /* HolidayVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HolidayVC.xib; sourceTree = "<group>"; };
+		72BBC268292584830029B35A /* earth-student.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "earth-student.json"; path = "../../../../../Downloads/earth-student.json"; sourceTree = "<group>"; };
+		72BBC269292584830029B35A /* happy-student.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "happy-student.json"; path = "../../../../../Downloads/happy-student.json"; sourceTree = "<group>"; };
+		72BBC26B292584830029B35A /* student-comp.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "student-comp.json"; path = "../../../../../Downloads/student-comp.json"; sourceTree = "<group>"; };
+		72BBC26C292584830029B35A /* confetti.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = confetti.json; path = ../../../../../Downloads/confetti.json; sourceTree = "<group>"; };
+		72BBC26D292584830029B35A /* student-laptop.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "student-laptop.json"; path = "../../../../../Downloads/student-laptop.json"; sourceTree = "<group>"; };
+		72BBC26E292584830029B35A /* students-jump.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "students-jump.json"; path = "../../../../../Downloads/students-jump.json"; sourceTree = "<group>"; };
+		72BBC26F292584830029B35A /* happy-holidays.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "happy-holidays.json"; path = "../../../../../Downloads/happy-holidays.json"; sourceTree = "<group>"; };
+		72BBC278292584E00029B35A /* confetti-2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "confetti-2.json"; path = "../../../../../Downloads/confetti-2.json"; sourceTree = "<group>"; };
+		72BBC27A2925859A0029B35A /* fireworks.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = fireworks.wav; path = ../../../../../Downloads/fireworks.wav; sourceTree = "<group>"; };
+		C44E559F714BE417CA7F14FC /* Pods_TheHappyHoliday.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TheHappyHoliday.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D07FE24EFFF34D9128437565 /* Pods-TheHappyHoliday.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheHappyHoliday.release.xcconfig"; path = "Target Support Files/Pods-TheHappyHoliday/Pods-TheHappyHoliday.release.xcconfig"; sourceTree = "<group>"; };
+		E7E6599FF9563411E7962322 /* Pods-TheHappyHoliday.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TheHappyHoliday.debug.xcconfig"; path = "Target Support Files/Pods-TheHappyHoliday/Pods-TheHappyHoliday.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +51,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02ADEF6952AA3734326403C5 /* Pods_TheHappyHoliday.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6FF852F5FDA56BAEE0DB5F1A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E7E6599FF9563411E7962322 /* Pods-TheHappyHoliday.debug.xcconfig */,
+				D07FE24EFFF34D9128437565 /* Pods-TheHappyHoliday.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		72BBC241292581750029B35A = {
 			isa = PBXGroup;
 			children = (
 				72BBC24C292581750029B35A /* TheHappyHoliday */,
 				72BBC24B292581750029B35A /* Products */,
+				6FF852F5FDA56BAEE0DB5F1A /* Pods */,
+				96961B71EBD561BCBF4FD34D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +88,55 @@
 		72BBC24C292581750029B35A /* TheHappyHoliday */ = {
 			isa = PBXGroup;
 			children = (
+				72BBC263292581CD0029B35A /* Lotties */,
+				72BBC262292581BF0029B35A /* Sound */,
+				72BBC261292581B90029B35A /* VC */,
 				72BBC24D292581750029B35A /* AppDelegate.swift */,
-				72BBC24F292581750029B35A /* SceneDelegate.swift */,
-				72BBC251292581750029B35A /* ViewController.swift */,
-				72BBC253292581750029B35A /* Main.storyboard */,
 				72BBC256292581760029B35A /* Assets.xcassets */,
 				72BBC258292581760029B35A /* LaunchScreen.storyboard */,
 				72BBC25B292581760029B35A /* Info.plist */,
 			);
 			path = TheHappyHoliday;
+			sourceTree = "<group>";
+		};
+		72BBC261292581B90029B35A /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				72BBC264292581E10029B35A /* HolidayVC.swift */,
+				72BBC265292581E10029B35A /* HolidayVC.xib */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		72BBC262292581BF0029B35A /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+				72BBC27A2925859A0029B35A /* fireworks.wav */,
+			);
+			path = Sound;
+			sourceTree = "<group>";
+		};
+		72BBC263292581CD0029B35A /* Lotties */ = {
+			isa = PBXGroup;
+			children = (
+				72BBC278292584E00029B35A /* confetti-2.json */,
+				72BBC26C292584830029B35A /* confetti.json */,
+				72BBC268292584830029B35A /* earth-student.json */,
+				72BBC26F292584830029B35A /* happy-holidays.json */,
+				72BBC269292584830029B35A /* happy-student.json */,
+				72BBC26B292584830029B35A /* student-comp.json */,
+				72BBC26D292584830029B35A /* student-laptop.json */,
+				72BBC26E292584830029B35A /* students-jump.json */,
+			);
+			path = Lotties;
+			sourceTree = "<group>";
+		};
+		96961B71EBD561BCBF4FD34D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C44E559F714BE417CA7F14FC /* Pods_TheHappyHoliday.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +146,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 72BBC25E292581760029B35A /* Build configuration list for PBXNativeTarget "TheHappyHoliday" */;
 			buildPhases = (
+				52514A444786BB45CBB09B5D /* [CP] Check Pods Manifest.lock */,
 				72BBC246292581750029B35A /* Sources */,
 				72BBC247292581750029B35A /* Frameworks */,
 				72BBC248292581750029B35A /* Resources */,
+				F314701FAB234B5B3FF8286F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,36 +199,78 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72BBC277292584830029B35A /* happy-holidays.json in Resources */,
+				72BBC271292584830029B35A /* happy-student.json in Resources */,
+				72BBC274292584830029B35A /* confetti.json in Resources */,
+				72BBC279292584E00029B35A /* confetti-2.json in Resources */,
+				72BBC267292581E10029B35A /* HolidayVC.xib in Resources */,
 				72BBC25A292581760029B35A /* LaunchScreen.storyboard in Resources */,
+				72BBC270292584830029B35A /* earth-student.json in Resources */,
+				72BBC273292584830029B35A /* student-comp.json in Resources */,
 				72BBC257292581760029B35A /* Assets.xcassets in Resources */,
-				72BBC255292581750029B35A /* Main.storyboard in Resources */,
+				72BBC27B2925859A0029B35A /* fireworks.wav in Resources */,
+				72BBC275292584830029B35A /* student-laptop.json in Resources */,
+				72BBC276292584830029B35A /* students-jump.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		52514A444786BB45CBB09B5D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TheHappyHoliday-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F314701FAB234B5B3FF8286F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TheHappyHoliday/Pods-TheHappyHoliday-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TheHappyHoliday/Pods-TheHappyHoliday-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TheHappyHoliday/Pods-TheHappyHoliday-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		72BBC246292581750029B35A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				72BBC252292581750029B35A /* ViewController.swift in Sources */,
 				72BBC24E292581750029B35A /* AppDelegate.swift in Sources */,
-				72BBC250292581750029B35A /* SceneDelegate.swift in Sources */,
+				72BBC266292581E10029B35A /* HolidayVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		72BBC253292581750029B35A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				72BBC254292581750029B35A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		72BBC258292581760029B35A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -216,7 +332,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -270,7 +386,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -282,6 +398,7 @@
 		};
 		72BBC25F292581760029B35A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7E6599FF9563411E7962322 /* Pods-TheHappyHoliday.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -290,11 +407,13 @@
 				DEVELOPMENT_TEAM = Y4A7N7GK38;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TheHappyHoliday/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = TheHH;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -310,6 +429,7 @@
 		};
 		72BBC260292581760029B35A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D07FE24EFFF34D9128437565 /* Pods-TheHappyHoliday.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -318,11 +438,13 @@
 				DEVELOPMENT_TEAM = Y4A7N7GK38;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TheHappyHoliday/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = TheHH;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

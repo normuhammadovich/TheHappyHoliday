@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HolidayVC" customModule="TheHappyHoliday" customModuleProvider="target">
+            <connections>
+                <outlet property="confettiTwoView" destination="yA1-va-chU" id="toh-i5-DHr"/>
+                <outlet property="confettiView" destination="VLt-Ef-GtW" id="yjE-or-6CO"/>
+                <outlet property="mainView" destination="ilL-BK-hoL" id="OkJ-H3-Scj"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="pvH-pZ-aGW">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                </imageView>
+                <visualEffectView opaque="NO" alpha="0.80000000000000004" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BWG-Zl-nXP">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                    <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="dRd-M7-S4N">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    </view>
+                    <blurEffect style="dark"/>
+                </visualEffectView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ilL-BK-hoL" customClass="LottieAnimationView" customModule="Lottie">
+                    <rect key="frame" x="0.0" y="241" width="414" height="414"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="ilL-BK-hoL" secondAttribute="height" id="pIn-PH-1Ub"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="animationName" value="student-laptop"/>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VLt-Ef-GtW" customClass="LottieAnimationView" customModule="Lottie">
+                    <rect key="frame" x="0.0" y="118" width="414" height="414"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="VLt-Ef-GtW" secondAttribute="height" id="2vU-uF-Gkl"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="animationName" value="confetti-2"/>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yA1-va-chU" customClass="LottieAnimationView" customModule="Lottie">
+                    <rect key="frame" x="0.0" y="241" width="414" height="414"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="animationName" value="confetti"/>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7KT-NF-lu6">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <connections>
+                        <action selector="confettiTapped:" destination="-1" eventType="touchUpInside" id="wtV-Z8-fz1"/>
+                    </connections>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="yA1-va-chU" secondAttribute="trailing" id="2AW-mu-ZVW"/>
+                <constraint firstItem="7KT-NF-lu6" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="5O6-cj-PQa"/>
+                <constraint firstItem="ilL-BK-hoL" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="5Pg-BV-CnO"/>
+                <constraint firstItem="yA1-va-chU" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="8PV-A5-JWv"/>
+                <constraint firstItem="VLt-Ef-GtW" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="Ag3-IZ-Owc"/>
+                <constraint firstAttribute="bottom" secondItem="BWG-Zl-nXP" secondAttribute="bottom" id="Bw6-Pl-QCU"/>
+                <constraint firstItem="BWG-Zl-nXP" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="IxO-J4-H2h"/>
+                <constraint firstItem="pvH-pZ-aGW" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="KVD-uA-LJp"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="BWG-Zl-nXP" secondAttribute="trailing" id="NNR-HQ-eeg"/>
+                <constraint firstItem="yA1-va-chU" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="OhG-qD-dFU"/>
+                <constraint firstItem="VLt-Ef-GtW" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="70" id="Pzp-3C-twL"/>
+                <constraint firstAttribute="trailing" secondItem="ilL-BK-hoL" secondAttribute="trailing" id="U9S-SS-Led"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="VLt-Ef-GtW" secondAttribute="trailing" id="WgQ-YQ-Hqx"/>
+                <constraint firstItem="pvH-pZ-aGW" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="gtt-KQ-j5d"/>
+                <constraint firstItem="BWG-Zl-nXP" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="oSI-kx-2Se"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="pvH-pZ-aGW" secondAttribute="trailing" id="pdE-GB-K96"/>
+                <constraint firstAttribute="bottom" secondItem="7KT-NF-lu6" secondAttribute="bottom" id="qvn-0n-sVk"/>
+                <constraint firstItem="7KT-NF-lu6" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="uLZ-q5-DMz"/>
+                <constraint firstAttribute="bottom" secondItem="pvH-pZ-aGW" secondAttribute="bottom" id="ukh-jn-8Xr"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="7KT-NF-lu6" secondAttribute="trailing" id="vNm-TZ-uY0"/>
+                <constraint firstItem="yA1-va-chU" firstAttribute="width" secondItem="yA1-va-chU" secondAttribute="height" id="w0w-Qy-tDv"/>
+                <constraint firstItem="ilL-BK-hoL" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="xcX-IA-LLO"/>
+            </constraints>
+            <point key="canvasLocation" x="47.826086956521742" y="20.758928571428569"/>
+        </view>
+    </objects>
+    <designables>
+        <designable name="VLt-Ef-GtW"/>
+        <designable name="ilL-BK-hoL"/>
+        <designable name="yA1-va-chU"/>
+    </designables>
+    <resources>
+        <image name="background" width="426.5" height="640"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
